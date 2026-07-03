@@ -212,6 +212,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 .logo-item:hover img { filter: grayscale(0); opacity: 1; }
 
 .roles { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 12px; }
+.roles-3 { grid-template-columns: repeat(3, 1fr); }
 .role { background: var(--bg-alt); border: 1px solid var(--line); border-radius: var(--radius); padding: 26px 24px; }
 .role h3 { font-size: 1.15rem; color: var(--green-700); }
 .role p { margin: 0; color: var(--body); }
