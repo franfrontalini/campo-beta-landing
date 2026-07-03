@@ -209,6 +209,8 @@ ul { margin: 0; padding: 0; list-style: none; }
 /* logos */
 .logos-band { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 48px; padding: 12px 0 44px; }
 .logo-item img { height: 56px; width: auto; object-fit: contain; filter: grayscale(1); opacity: .72; transition: .2s; }
+/* Logos cuadrados (con margen interno): más alto para igualar peso visual */
+.logo-item--boxy img { height: 84px; }
 .logo-item:hover img { filter: grayscale(0); opacity: 1; }
 
 .roles { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 12px; }
