@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# Editores
+.vscode/
+.idea/
+
+# Dependencias / build (por si se agregan más adelante)
+node_modules/
+dist/
